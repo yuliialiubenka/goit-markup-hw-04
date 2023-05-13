@@ -249,7 +249,7 @@ img {
     width: 40px;
     height: 40px;
 }
-.our-team-section__social-media-icon > .sm-icon:hover, .sm-icon:focus-visible {
+.our-team-section__social-media-icon > .sm-icon:hover, .sm-icon:focus, .sm-icon:focus-visible {
     background-color: var(--pressed-state);
 }
 .customers-section__title {
@@ -344,9 +344,10 @@ img {
 .footer .container {
     display: flex;
     align-items: baseline;
-    gap: 120px;
 }
-
+.footer__info {
+    margin-right: 120px;
+}
 .footer__logo {
     font-family: 'Raleway';
     font-style: normal;
