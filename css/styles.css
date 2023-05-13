@@ -230,7 +230,7 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 .our-team-section__card-info {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 .our-team-section__card-title {
     text-align: center;
@@ -242,6 +242,7 @@ img {
 }
 .our-team-section__card-social-media {
     display: flex;
+    justify-content: center;
     gap: 24px;
 }
 .our-team-section__social-media-icon {
