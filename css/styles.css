@@ -257,6 +257,7 @@ img {
     line-height: 1.1;
     color: var(--dark);
     margin-bottom: 72px;
+    text-align: center;
 }
 .customers-section__wrapper {
     display: flex;
