@@ -249,6 +249,9 @@ img {
     width: 40px;
     height: 40px;
 }
+.our-team-section__social-media-icon > .sm-icon:hover, .sm-icon:focus-visible {
+    background-color: var(--pressed-state);
+}
 .customers-section__title {
     font-size: 36px;
     line-height: 1.1;
@@ -389,9 +392,10 @@ img {
     align-items: center;
     justify-content: center;
 }
-.sm-icon:hover, .sm-icon:focus-visible {
-    background-color: var(--succes);
-}
 .svg-icon {
     fill: var(--light);
+}
+
+.footer__social-media-icon > .sm-icon:hover, .sm-icon:focus-visible {
+    background-color: var(--succes);
 }
