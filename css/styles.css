@@ -279,7 +279,11 @@ img {
     border-radius: 4px;
     color: var(--subtle-text);
 }
-.customers-section__item-link:hover, .customers-section__item-link:focus {
+.customers-section__item-link:hover {
+    color: var(--pressed-state);
+    border-color: var(--pressed-state);
+}
+.customers-section__item-link:focus {
     color: var(--pressed-state);
     border-color: var(--pressed-state);
 }
@@ -302,7 +306,19 @@ img {
     padding: 12px 24px;
     box-sizing: border-box;
 }
-.portfolio-section__tabs-item > .btn:hover, .btn:focus, .btn:focus-visible {
+.portfolio-section__tabs-item .btn:hover {
+    background: var(--pressed-state);
+    border: 1px solid transparent;
+    color: var(--white);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio-section__tabs-item .btn:focus {
+    background: var(--pressed-state);
+    border: 1px solid transparent;
+    color: var(--white);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio-section__tabs-item .btn:focus-visible {
     background: var(--pressed-state);
     border: 1px solid transparent;
     color: var(--white);
@@ -315,12 +331,20 @@ img {
     flex-wrap: wrap;
 }
 .portfolio-section__card {
+    display: block;
     flex-basis: calc((100% - 48px) / 3);
 }
 .portfolio-section__card-link {
+    display: block;
     color: var(--text);
 }
-.portfolio-section__card-link:hover, .portfolio-section__card-link:focus-visible {
+.portfolio-section__card-link:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-section__card-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-section__card-link:focus-visible {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-section__card-info {
