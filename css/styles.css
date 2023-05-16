@@ -31,6 +31,7 @@ body {
 }
 a {
 	text-decoration: none;
+    outline: none;
 }
 li {
     list-style: none;
@@ -70,6 +71,7 @@ img {
     border: none;
 	border-radius: 4px;
 	cursor: pointer;
+    outline: none;
 }
 
 /* Header */
@@ -251,7 +253,13 @@ img {
     width: 40px;
     height: 40px;
 }
-.our-team-section__social-media-icon > .sm-icon:hover, .sm-icon:focus, .sm-icon:focus-visible {
+.our-team-section__social-media-icon .sm-icon:hover {
+    background-color: var(--pressed-state);
+}
+.our-team-section__social-media-icon .sm-icon:focus {
+    background-color: var(--pressed-state);
+}
+.our-team-section__social-media-icon .sm-icon:focus-visible {
     background-color: var(--pressed-state);
 }
 .customers-section__title {
@@ -293,6 +301,10 @@ img {
 /* Portfolio */
 .portfolio-section {
     padding: 96px 0 120px;
+}
+.portfolio-section__title {
+    visibility: hidden;
+    height: 0;
 }
 .portfolio-section__tabs {
     display: flex;
