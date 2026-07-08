@@ -1,0 +1,42 @@
+.team {
+    background-color: var(--surface-default);
+}
+
+.team-title {
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    color: var(--contrast-high);
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-card {
+    width: calc((100% - 72px) / 4);
+    background-color: var(--surface-primary);
+    border-radius: 0 0 var(--radius) var(--radius);
+    box-shadow: var(--shadow-card);
+}
+
+.team-content {
+    padding: 32px 16px;
+    text-align: center;
+}
+
+.team-name {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--contrast-high);
+}
+
+.team-content .socials {
+    justify-content: center;
+    margin-top: 8px;
+}

@@ -1,0 +1,39 @@
+.footer {
+    padding: 100px 0;
+    background-color: var(--contrast-high);
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-info {
+    margin-right: 120px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: var(--surface-default);
+}
+
+.footer-text {
+    max-width: 264px;
+    color: var(--surface-default);
+}
+
+.footer-social-title {
+    margin-bottom: 16px;
+    font-weight: 500;
+    color: var(--surface-primary);
+}
+
+.footer-socials {
+    gap: 16px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--success);
+}
