@@ -19,7 +19,8 @@
 
     --radius: 4px;
 
-    --shadow-card: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
+    --shadow-card:
+        0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     --shadow-button: 0 4px 4px rgba(0, 0, 0, 0.15);
 
     --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -123,6 +124,6 @@ img {
 }
 
 .social-icon {
-    fill: var(--surface-primary);
+    fill: var(--surface-default);
     --color3: inherit;
 }

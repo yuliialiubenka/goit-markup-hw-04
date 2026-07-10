@@ -13,7 +13,7 @@
     justify-content: center;
     height: 112px;
     margin-bottom: 8px;
-    border: 1px solid var(--accent-subtle);
+    border: 1px solid var(--text-secondary);
     border-radius: var(--radius);
     background-color: var(--surface-default);
 }
